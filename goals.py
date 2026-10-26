@@ -1,0 +1,13 @@
+personal_name=input("Enter your name: ")
+goal_name=input("Enter your goal: ")
+target_month=input("Enter your target month: ")
+daily_minutes=30
+print("\nMY PERSONAL GOAL PLAN\n")
+print("Name: ", personal_name)
+print("Daily practice", daily_minutes,"minutes")
+print("Status: ", end="")
+print("Not started")
+print("Reminder: ",end="-")
+print("Practise every day!")
+print("\nIn one sentence: ")
+print(personal_name,"plans to work on", goal_name, "for", daily_minutes, "every day until", target_month,"month")
